@@ -6,12 +6,12 @@ def bubble_sort_by(arr)
     swapped = false
     n.times do |i|
       result = yield arr[i], arr[i + 1]
-        if result == 1
-          arr[i], arr[i + 1] = arr[i + 1], arr[i]
-          swapped = true
-        end
+      if result == 1
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]
+        swapped = true
       end
-    break if swapped = false
+    end
+    break if swapped == false
   end
 end
 
