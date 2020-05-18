@@ -1,6 +1,5 @@
-
 def bubble_sort(arr)
-    n = arr.length - 1
+  n = arr.length - 1
     1.upto(n) do
           n.times do |i|
             if arr[i] > arr[i+1]
