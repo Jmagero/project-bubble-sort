@@ -10,7 +10,7 @@ def bubble_sort(arr)
       end
     end
   end
-arr
+  arr
 end
 # [4, 3, 78, 2, 0, 2]
 arr = [5, 1, 4, 2, 8]

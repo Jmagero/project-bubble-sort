@@ -4,14 +4,14 @@ def bubble_sort_by(arr)
   n = arr.length - 1
   loop do
     swapped = false
-      n.times do |i|
-        result = yield arr[i], arr[i + 1]
+    n.times do |i|
+      result = yield arr[i], arr[i + 1]
         if result == 1
           arr[i], arr[i + 1] = arr[i + 1], arr[i]
-          swapped = true  
+          swapped = true
         end
       end
-    break unless !swapped
+    break if swapped = false
   end
 end
 
