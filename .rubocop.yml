@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Zubenna 
-microverseinc
-/
-linters-config
-9
-48
-155
- Code
- Issues 1
- Pull requests 3 Actions
- Projects 0
- Wiki
- Security 0
- Insights
-linters-config/ruby/.rubocop.yml
-@Dandush03 Dandush03 Added New Rubocop Cops after Stickler Update
-e7d35a6 on Apr 14
-@nidalaa@Nazeh@shloch@stiakov@michael-mcgee@kelvin8773@ebukaume@abruzy@Dandush03
-51 lines (46 sloc)  925 Bytes
- 
 AllCops:
   Exclude:
     - "README.md"
@@ -77,15 +49,3 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
