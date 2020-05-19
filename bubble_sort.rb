@@ -2,12 +2,7 @@ def bubble_sort(arr)
   n = arr.length - 1
   n.times do
     n.times do |i|
-      next if arr[i] < arr[i + 1]
-      if arr[i] > arr[i + 1]
-        temp = arr[i]
-        arr[i] = arr[i + 1]
-        arr[i + 1] = temp
-      end
+      arr[i], arr[i + 1] = arr[i + 1], arr[i] if arr[i] > arr[i + 1]
     end
   end
   arr
