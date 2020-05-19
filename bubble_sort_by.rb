@@ -13,7 +13,7 @@ def bubble_sort_by(arr)
   end
 end
 
-arr = ['hi', 'hello', 'hey']
+arr = %w['hi', 'hello', 'hey']
 bubble_sort_by(arr) do |left, right|
   left.length <=> right.length
 end
