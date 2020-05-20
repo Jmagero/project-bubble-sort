@@ -11,10 +11,11 @@ def bubble_sort_by(arr)
     end
     break if swapped == false
   end
+  arr
 end
 
 arr = %w[hi hello hey]
-bubble_sort_by(arr) do |left, right|
+sorted_arr = bubble_sort_by(arr) do |left, right|
   left.length - right.length
 end
-p arr
+p sorted_arr
