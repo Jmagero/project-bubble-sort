@@ -1,7 +1,7 @@
 # project-bubble-sort
 
 > This project is about creating a method(bubble_sort.rb) that uses the bubble sort algorithm. The method takes in an array of integers as an argument and sorts the elements in ascending order.
-The second method (buble_sort_by.rb) takes in array of string and uses the yield keyword to pass a block to the method.
+The second method (buble_sort_by.rb) takes in array of string and uses the yield keyword to pass a block to the method. The methods can also sort in descending order with little modification.
 
 
 ## Built With
@@ -16,7 +16,7 @@ The second method (buble_sort_by.rb) takes in array of string and uses the yield
 - Twitter: [@twitterhandle](https://twitter.com/CelynMagz)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
-👤 ****
+👤 **Nnamdi Emelu**
 
 - Github: [@githubhandle](https://github.com/zubenna)
 - Twitter: [@twitterhandle](https://twitter.com/zubenna)
